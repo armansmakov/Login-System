@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PetProject.Models;
+using PetProject.Models.ViewModels;
 using System.Diagnostics;
 
 namespace PetProject.Controllers
