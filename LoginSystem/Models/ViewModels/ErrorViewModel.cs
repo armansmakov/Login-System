@@ -1,4 +1,4 @@
-namespace PetProject.Models.ViewModels
+namespace LoginSystem.Models.ViewModels
 {
     public class ErrorViewModel
     {

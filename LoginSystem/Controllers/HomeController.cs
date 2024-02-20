@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PetProject.Models;
+using LoginSystem.Models.ViewModels;
 using System.Diagnostics;
 
-namespace PetProject.Controllers
+namespace LoginSystem.Controllers
 {
     public class HomeController : Controller
     {
