@@ -1,14 +1,14 @@
 ﻿using FluentValidation;
-using PetProject.Models.Entities;
+using LoginSystem.Models.Entities;
 
 
-namespace PetProject.Validation
+namespace LoginSystem.Validation
 {
     public class UserInfoValidator : AbstractValidator<UserInfo>
     {
         public UserInfoValidator()
         {
-            RuleFor(x => x.UserName).NotEmpty
+            RuleFor(x => x.UserName).NotEmpty();
         }
     }
 }

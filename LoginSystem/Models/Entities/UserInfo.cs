@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace PetProject.Models.Entities
+namespace LoginSystem.Models.Entities
 {
     public class UserInfo
     {
